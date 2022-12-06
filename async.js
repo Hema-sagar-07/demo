@@ -27,6 +27,7 @@ import fetch from 'node-fetch'
 fetch('https://jsonplaceholder.typicode.com/photos')
     .then(r => r.json())
     .then(r => console.log(r))
+//hello
 
 try {
 
